@@ -1,0 +1,24 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Pedro Henrique F. Oliveira",
+            "email": "pedro.cic.unb@gmail.com"
+        },
+        {
+            "id": 2,
+            "name": "Ingrid Correia Mendes dos Santos",
+            "email": "ydylindinha@gmail.com"
+        },
+        {
+            "id": 3,
+            "name": "Nayra Luiza Mendes de Jesus",
+            "email": "nayra@gmail.com"
+        },
+        {
+            "id": 4,
+            "name": "Letícia Mendes de Jesus",
+            "email": "tyça@gmail.com"
+        }
+    ]
+}
