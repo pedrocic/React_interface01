@@ -2,9 +2,13 @@ import React from "react";
 
 import { HeaderArea } from "./header_style";
 
-const header = () => (
-  <HeaderArea>
-    <h1>Cabeçalho</h1>
+const header = ({ icon, title, subtitle }) => (
+  <HeaderArea className="d-none d-sm-flex flex-column">
+    <h1 className="mt-3">
+      <i className={`fa fa-${icon}`} />
+      {title}
+    </h1>
+    <p className="lead text-muted">{subtitle}</p>
   </HeaderArea>
 );
 

@@ -1,12 +1,8 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "font-awesome/css/font-awesome.min.css";
 
-import {
-  GlobalStyle,
-  GridLayout,
-  LogoArea,
-  NavArea,
-  FooterArea
-} from "./style";
+import { GlobalStyle, GridLayout, NavArea, FooterArea } from "./style";
 
 import Logo from "./components/templates/logo/Logo";
 import Sidebar from "./components/templates/sidebar/Sidebar";
@@ -18,15 +14,17 @@ function App() {
     <>
       <GlobalStyle />
       <GridLayout>
-        <LogoArea>
-          <Logo></Logo>
-        </LogoArea>
+        <Logo />
         <NavArea>
-          <Sidebar></Sidebar>
+          <Sidebar />
         </NavArea>
-        <Content></Content>
+        <Content
+          icon="home"
+          title="Início"
+          subtitle="Primeiro Projeto de React"
+        />
         <FooterArea>
-          <Footer></Footer>
+          <Footer />
         </FooterArea>
       </GridLayout>
     </>

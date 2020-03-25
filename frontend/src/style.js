@@ -1,6 +1,9 @@
 import styled, { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
+  :root {
+    --dark-blue: #1a2f3a
+  }
   * {
     padding: 0;
     margin: 0;
@@ -18,10 +21,6 @@ export const GridLayout = styled.div`
     "menu content"
     "menu footer";
   height: 100vh;
-`;
-
-export const LogoArea = styled.aside`
-  grid-area: logo;
 `;
 
 export const NavArea = styled.aside`

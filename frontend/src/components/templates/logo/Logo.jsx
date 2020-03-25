@@ -1,9 +1,13 @@
 import React from "react";
 
-const logo = () => (
-  <aside className="logo">
-    <h1>Logo</h1>
-  </aside>
-);
+import logo from "../../../assets/img/logo.png";
 
-export default logo;
+import { LogoArea } from "./logo_style";
+
+export default () => (
+  <LogoArea>
+    <a href="/" className="logo">
+      <img src={logo} alt="logo" />
+    </a>
+  </LogoArea>
+);

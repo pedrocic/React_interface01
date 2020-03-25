@@ -3,9 +3,9 @@ import Header from "../header/Header";
 
 import { ContentArea } from "./content_style";
 
-const content = () => (
+const content = props => (
   <>
-    <Header></Header>
+    <Header {...props} />
     <ContentArea>
       <h1>Conteudo</h1>
     </ContentArea>
